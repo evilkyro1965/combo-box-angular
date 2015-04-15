@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="comboDemoApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <title>Prototype1</title>
+    <link rel="stylesheet" type="text/css" href="combo-modal.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+		
+    <script src="jquery-2.1.3.js"></script>
+		<script src="angular.js"></script>
+		<script src="app.js"></script>
+
+</head>
+<body ng-controller="comboDemoController">
+	<div class="wrapper">
+		<combobutton id="language" class="combo" data="data" selected="language">
+			<span class='comboLabel'>Language</span>
+		</combobutton>
+		{{language.label}}
+	</div>
+</body>
+</html>
