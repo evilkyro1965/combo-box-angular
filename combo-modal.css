@@ -6,6 +6,8 @@
 	display:none;
 	border-radius:5px;
 	box-shadow: 0px 0px 5px #bdbfc2;
+	height:200px;
+	overflow:auto;
 }
 .jqueryComboModal .comboItem {
 	font-family: arial;
@@ -19,6 +21,10 @@
 	font-family:helvetica,arial;
 	color:#575d62;
 	font-size:14px;
+}
+.jqueryComboModal .selected {
+	background-color:#eeeeee;
+	color:#575d62;
 }
 .jqueryComboModal .comboItem:hover {
 	background-color:#eeeeee;
